@@ -1,14 +1,14 @@
 {
   "name": "find-event-handlers",
-  "version": "1.0.0",
-  "description": "get list of event handlers",
+  "version": "1.0.3",
+  "description": "get list of event handlers on a given DOM object (grabbed via jQuery)",
   "main": "findEventHandlers.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andfaulkner/find-event-handlers.git"
+    "url": "git+https://github.com/andfaulkner/findHandlersJS.git"
   },
   "keywords": [
     "handler",
@@ -23,15 +23,18 @@
     "utilities",
     "browser",
     "dom",
-    "event handlers",
-    "lodash"
+    "lodash",
+    "listener",
+    "shim",
+    "polyfill",
+    "shiv"
   ],
-  "author": "Andrew Faulkner & Rui Figueiredo",
+  "author": "Rui Figueiredo & Andrew Faulkner",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/andfaulkner/find-event-handlers/issues"
+    "url": "https://github.com/andfaulkner/findHandlersJS/issues"
   },
-  "homepage": "https://github.com/andfaulkner/find-event-handlers#readme",
+  "homepage": "https://github.com/andfaulkner/findHandlersJS#readme",
   "dependencies": {
     "lodash": "^3.9.3",
     "jquery": "^2.1.4"
