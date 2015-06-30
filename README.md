@@ -1,6 +1,10 @@
 findHandlersJS
 ==============
 
+Installation:
+
+		npm i find-event-handlers --save
+
 Stop wasting your time looking for where those handlers are registered, use findHandlersJS and discover them instantly.
 
 Usage: 
@@ -30,6 +34,3 @@ For example, if div#myDiv has a delegate handler with the selector :button and t
 If you are using the console on Chrome, you can right click the handler, click show function definition and add breakpoints to debug the handlers.
 
 To detect whether or not there are any handlers attached to an element, use a library like lodash to determine whether or not the returned object is empty.
-
-
-Wrapped for npm and doubled in size by Andrew Faulkner.

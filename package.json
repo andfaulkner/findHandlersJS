@@ -1,6 +1,6 @@
 {
   "name": "find-event-handlers",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "get list of event handlers on a given DOM object (grabbed via jQuery)",
   "main": "findEventHandlers.js",
   "scripts": {
@@ -29,7 +29,7 @@
     "polyfill",
     "shiv"
   ],
-  "author": "Rui Figueiredo & Andrew Faulkner",
+  "author": "Andrew Faulkner & Rui Figueiredo",
   "license": "Apache 2.0",
   "bugs": {
     "url": "https://github.com/andfaulkner/findHandlersJS/issues"
@@ -39,6 +39,5 @@
     "lodash": "^3.9.3",
     "jquery": "^2.1.4"
   },
-  "devDependencies": {
-  }
+  "devDependencies": { }
 }
