@@ -1,6 +1,6 @@
 {
   "name": "find-event-handlers",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "get list of event handlers on a given DOM object (grabbed via jQuery)",
   "main": "findEventHandlers.js",
   "scripts": {
@@ -36,7 +36,6 @@
   },
   "homepage": "https://github.com/andfaulkner/findHandlersJS#readme",
   "peerDependencies": {
-    "lodash": "^3.9.3",
     "jquery": "^2.1.4"
   },
   "devDependencies": { }
